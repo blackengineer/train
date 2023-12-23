@@ -2,7 +2,7 @@
 
 import { Montserrat } from 'next/font/google'
 import Link from 'next/link'
-import { Button } from './ui/button'
+import { Button } from './ui/Button'
 import Logo from '@/components/Logo'
 import { cn } from '@/lib/utils'
 
@@ -18,7 +18,7 @@ const LandingNavbar = () => {
         <Logo />
       </Link>
       <div className="flex items-center gap-x-2">
-        <Link href={'/'}>
+        <Link href={'/sign-in'}>
           <Button>
             Sign in
           </Button>

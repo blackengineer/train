@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import TypewriterComponent from 'typewriter-effect'
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/ui/Button'
 
 const LandingHero = () => {
   return (
@@ -37,7 +37,7 @@ const LandingHero = () => {
       </div>
       <div>
         <Link
-          href={'/'}
+          href={'/sign-up'}
         >
           <Button variant='premium'>
             Start training
